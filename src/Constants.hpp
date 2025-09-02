@@ -31,7 +31,7 @@ namespace Constants {
 
     static const double pi = 3.14159265358979323846; // pi
     static const double radToDeg = 180/pi;
-    static constexpr float wheelDiameter = 3.25f; // Diameter of drive wheels
+    static constexpr float wheelDiameter = 3.00f; // Diameter of drive wheels
 
     //drive train auton values---------------
     static const float trackwidth = 14.18f;
@@ -42,7 +42,7 @@ namespace Constants {
     
     //Darshaan's Code (597C)
     //static const double wheelDiameter = 3.25; // Diameter of drive wheels(inches)
-    static const double gearRatio = 3.0/5.0;
+    static const double gearRatio = 36.0/64.0;
     static const int encoder_ticks_per_rev = 1800;
     static const double wheelCircumference = 3.25 * pi;
     static const double distancePerTick = wheelCircumference/(encoder_ticks_per_rev*gearRatio);
