@@ -18,8 +18,8 @@ class DriveTrain {
     Motor btr_mtr = Motor(mr_p);
     Motor br_mtr = Motor(br_p);
 
-    MotorGroup left_g  = MotorGroup({-fl_p, -ml_p, -bl_p});
-    MotorGroup right_g = MotorGroup({fr_p, mr_p, br_p});
+    MotorGroup left_g  = MotorGroup({-fl_p, ml_p, -bl_p});
+    MotorGroup right_g = MotorGroup({fr_p, -mr_p, br_p});
 
     PIDController pidController = PIDController(kP, kI, kD, integral_threshold); 
 
