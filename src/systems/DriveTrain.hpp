@@ -172,7 +172,7 @@ class DriveTrain {
         left_g.move_absolute(ticks, 100);
     }
  
-    inline void moveHorizontalNewTest(double inches, int32_t velocity){
+    inline void moveHorizontal(double inches, int32_t velocity){
         if (fabs(inches) > offsetInches){
             inches = (inches > 0) ? inches-offsetInches:inches+offsetInches;
         }

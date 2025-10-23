@@ -125,13 +125,19 @@ void debugWait() {
 }
 
 void autonomous() {
-	//dt.moveforward(1000, 100); // move forward for 1 second at 100% speed
-	//dt.turnAngle(90, 100); // turn right 90 degrees at 100% speed
-	//dt.moveBackward(1000, 100); // move backward for 1 second at 100% speed
-	//dt.turnAngle(-90, 100); // turn left 90 degrees at 100% speed
-	//dt.arcadeDrive(0, 0); // stop the robot
-	//it.spinUp();// spin up the intake
-	//it.spinDown();// spin down the intake
+	dt.moveHorizontal(25,50 );// move forward for 1 second at 100% speed
+	it.spinUp(); 
+	dt.turnAngle(-20);
+	dt.moveHorizontal(10,40);
+	dt.turnAngle(40);
+	dt.moveHorizontal(-28.5,80);
+	it.stop();
+	dt.turnAngle(-30);
+	dt.moveHorizontal(16.5,70);
+	it.spinDown();
+
+
+	
 	//programs -> 597C ->  competition -> programming skills -> */
 
 }

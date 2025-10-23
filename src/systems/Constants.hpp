@@ -7,12 +7,14 @@ namespace Constants {
     const int8_t fl_p = 11; // Port of Front Left motor
     static constexpr unsigned char ml_p = 12; // Port of Middle Left motor
     static constexpr unsigned char bl_p = 13; // Port of Back Left motor
-    static constexpr unsigned char fr_p = 1; // Port of Front Right motor
-    static constexpr unsigned char mr_p = 2; // Port of Middle Right motor
-    static constexpr unsigned char br_p = 3; // Port of Back Right motor
+    static constexpr unsigned char fr_p = 16; // Port of Front Right motor
+    static constexpr unsigned char mr_p = 17; // Port of Middle Right motor
+    static constexpr unsigned char br_p = 18; // Port of Back Right motor
 
-    static constexpr unsigned char it1_p = 16; // Port of the Elevation mech
-    static constexpr unsigned char it2_p = 15; // Port of the Elevation mech
+    static constexpr unsigned char it1_p = 1; // Port of the Elevation mech
+    static constexpr unsigned char it2_p = 21; // Port of the Elevation mech
+    static constexpr unsigned char it3_p = 2; // Port of the Elevation mech
+
 
     static constexpr unsigned char hinge_p = 'A'; // Port for the Catapult's button
 
